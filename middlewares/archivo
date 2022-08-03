@@ -1,0 +1,11 @@
+Parámetros express:
+http://localhost:3000/products?API_KEY="12354djd"
+Con Query params: --> req.query
+https://misimagenes.com?user=20&size=big&quality=low
+https://www.omdbapi.com/?t=${req.params.title}&apikey=${APIKEY}
+req.query.t
+req.query.apikey
+Parámetros de ruta --> req.params
+http://localhsot:3000/products/:id --> ruta en express
+http://localhsot:3000/products/3 --> req.params.id
+http://localhsot:3000/products/55 --> req.params.id
